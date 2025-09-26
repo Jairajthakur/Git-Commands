@@ -3,3 +3,8 @@ git init
 git status
 git add index.html
 git commit -m "Message" index.html
+git log (Check commit history)
+git log --oneline
+git show/git show commit id (Show commit info)
+git shortlog (Shows commit message)
+git diff commitid..commitid (To see the difference between id's)
