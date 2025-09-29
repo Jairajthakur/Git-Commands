@@ -8,3 +8,8 @@ git log --oneline
 git show/git show commit id (Show commit info)
 git shortlog (Shows commit message)
 git diff commitid..commitid (To see the difference between id's)
+rm rf * (It will delete in working tree)
+git commit --amend -m "Message" (To change latest commit message)
+git rebase -i HEAD~3 (To change the commit message)
+git checkout master - index.html (To come back to latest version)
+git rm index.html (To delete the file)
