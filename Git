@@ -18,3 +18,8 @@ git restore text.html (To restore to previous version before commit)
 git restore --staged text.html (To unstage/untrack)
 git restore filename (To restore deleted file)
 git reset --soft HEAD^ (Uncommit and keep the changes)
+git reset --hard HEAD^  (Uncommit and discard the changes)
+git stash  (Park the file aside)
+git stash apply (To get the stashed file back)
+git push -u origin master
+git clone  (Copy of remote repo to local repo)
